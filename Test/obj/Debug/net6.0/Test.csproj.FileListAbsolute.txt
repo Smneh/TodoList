@@ -78,3 +78,158 @@ I:\Programming\C#\Test\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runt
 I:\Programming\C#\Test\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 I:\Programming\C#\Test\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 I:\Programming\C#\Test\Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\appsettings.Development.json
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\appsettings.json
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Test.exe
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Test.deps.json
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Test.runtimeconfig.json
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Test.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Test.pdb
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Azure.Core.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Azure.Identity.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Memory.Data.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\C# Files\git\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.MvcApplicationPartsAssemblyInfo.cs
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.MvcApplicationPartsAssemblyInfo.cache
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\staticwebassets.build.json
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\staticwebassets.development.json
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\scopedcss\bundle\Test.styles.css
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.csproj.CopyComplete
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.dll
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\refint\Test.dll
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.pdb
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\Test.genruntimeconfig.cache
+D:\C# Files\git\TodoList\Test\obj\Debug\net6.0\ref\Test.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\appsettings.Development.json
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\appsettings.json
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Test.exe
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Test.deps.json
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Test.runtimeconfig.json
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Test.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Test.pdb
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Azure.Core.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Azure.Identity.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Drawing.Common.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Memory.Data.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Runtime.Caching.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Security.Permissions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\System.Windows.Extensions.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\Programming\C#\TodoList\Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.MvcApplicationPartsAssemblyInfo.cs
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.MvcApplicationPartsAssemblyInfo.cache
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets\msbuild.Test.Microsoft.AspNetCore.StaticWebAssets.props
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets\msbuild.build.Test.props
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Test.props
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Test.props
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets.pack.json
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets.build.json
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\staticwebassets.development.json
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\scopedcss\bundle\Test.styles.css
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.csproj.CopyComplete
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.dll
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\refint\Test.dll
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.pdb
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\Test.genruntimeconfig.cache
+I:\Programming\C#\TodoList\Test\obj\Debug\net6.0\ref\Test.dll

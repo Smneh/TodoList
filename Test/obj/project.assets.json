@@ -2875,11 +2875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Programming\\C#\\Test\\Test\\Test.csproj",
+      "projectUniqueName": "I:\\Programming\\C#\\TodoList\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "I:\\Programming\\C#\\Test\\Test\\Test.csproj",
+      "projectPath": "I:\\Programming\\C#\\TodoList\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\Mis.None\\.nuget\\packages\\",
-      "outputPath": "I:\\Programming\\C#\\Test\\Test\\obj\\",
+      "outputPath": "I:\\Programming\\C#\\TodoList\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mis.None\\AppData\\Roaming\\NuGet\\NuGet.Config",

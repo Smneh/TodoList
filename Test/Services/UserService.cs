@@ -22,27 +22,29 @@ namespace Services
         {
             return _repo.User.GetAllUsers();
         }
+
         public User GetUserById(string id)
         {
             return _repo.User.GetUserById(id);
         }
-        public void CreateUser(UserDto userDto) {
+
+        public void CreateUser(SingUpUserDto userDto) {
             bool exist = _repo.User.UsernameExists(userDto.Username);
             if (exist)
                 throw new DuplicateNameException();
 
-            var user = new User(userDto.Username, userDto.Password);
+            var user = new User(userDto.Name,userDto.Username, userDto.Password);
             _repo.User.CreateUser(user);
             _repo.Save();
         }
 
-        public AuthenticatedResponse Authenticate(UserDto userDto)
+        public AuthenticatedResponse Authenticate(LoginUserDto userDto)
         {
             var user = _repo.User.Authenticate(userDto.Username, userDto.Password);
             if (user == null)
                 return null;
 
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secretKeyMew98"));
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secretKeyMew98sad123%&Fsad"));
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha512Signature);
             var claims = new List<Claim>
             {

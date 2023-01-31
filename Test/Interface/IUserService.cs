@@ -7,7 +7,7 @@ namespace Interface
     {
         IEnumerable<User> GetAllUsers();
         User GetUserById(string id);
-        void CreateUser(UserDto userDto);
-        AuthenticatedResponse Authenticate(UserDto userDto);
+        void CreateUser(SingUpUserDto userDto);
+        AuthenticatedResponse Authenticate(LoginUserDto userDto);
     }
 }

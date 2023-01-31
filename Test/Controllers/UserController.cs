@@ -15,7 +15,7 @@ namespace Test.Controllers
         }
 
         [HttpPost("createUser")]
-        public IActionResult CreateUser([FromBody] UserDto userDto)
+        public IActionResult CreateUser([FromBody] SingUpUserDto userDto)
         {
             try
             {
@@ -31,20 +31,20 @@ namespace Test.Controllers
             }
         }
         [HttpPost("login")]
-        public IActionResult Authneticate([FromBody] UserDto userDto)
+        public IActionResult Authneticate([FromBody] LoginUserDto userDto)
         {
             try
             {
                 var response = _userService.Authenticate(userDto);
 
                 if (response == null)
-                    return BadRequest("Username or password is incorrect");
+                    return BadRequest("Username or password is incorrect !");
 
                 return Ok(response);
             }
             catch (Exception ex)
             {
-                return StatusCode(500 , ex);
+                return StatusCode(500 , ex.Message);
             }
         }
     }
