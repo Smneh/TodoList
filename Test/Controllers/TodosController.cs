@@ -1,6 +1,7 @@
 ﻿using Interface;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Test.Controllers
 {
@@ -47,10 +48,11 @@ namespace Test.Controllers
         }
 
         [HttpGet("getUserTodos")]
-        public IActionResult GetUserTodos([FromQuery] string id)
+        public IActionResult GetUserTodos()
         {
             try
             {
+                var id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
                 var todos = _todoService.GetUserTodos(id);
                 return Ok(todos);
             }
@@ -65,7 +67,8 @@ namespace Test.Controllers
         {
             try
             {
-                var code = _todoService.CreateTodo(todoDto);
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                var code = _todoService.CreateTodo(todoDto, userId);
                 if (code == 1)
                     return BadRequest("UserId is not true");
                 return Ok();
@@ -77,11 +80,11 @@ namespace Test.Controllers
             }
         }
 
-        [HttpPut]
-        public IActionResult UpdateTodo([FromBody] TodoDto todoDto) {
+        [HttpPut("{todoId}")]
+        public IActionResult UpdateTodo(string todoId, [FromBody] TodoDto todoDto) {
             try
             {
-                var code = _todoService.UpdateTodo(todoDto);
+                var code = _todoService.UpdateTodo(todoDto,todoId);
                 if (code == 1)
                     return BadRequest("UserId not found");
 
@@ -93,14 +96,16 @@ namespace Test.Controllers
             }
         }
 
-        [HttpDelete]
-        public IActionResult DeleteTodo([FromBody] string todoId) {
+        [HttpDelete("{todoId}")]
+        public IActionResult DeleteTodo(string todoId) {
             try
             {
-                var code = _todoService.DeleteTodo(todoId);
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                var code = _todoService.DeleteTodo(todoId, userId);
                 if (code == 1)
                     return BadRequest("TodoId not found");
-
+                if (code == 2)
+                    return BadRequest("UserID dose not match the todo's userID");
                 return Ok("Todo Deleted !");
             }
             catch (Exception ex)

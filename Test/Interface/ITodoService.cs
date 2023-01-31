@@ -7,8 +7,8 @@ namespace Interface
         Todo GetTodoById(string id);
         IEnumerable<Todo> GetAllTodos();
         IEnumerable<Todo> GetUserTodos(string userId);
-        int CreateTodo(TodoDto todoDto);
-        int UpdateTodo(TodoDto todoDto);
-        int DeleteTodo(string id);
+        int CreateTodo(TodoDto todoDto, string userId);
+        int UpdateTodo(TodoDto todoDto, string todoId);
+        int DeleteTodo(string todoId, string userId);
     }
 }
