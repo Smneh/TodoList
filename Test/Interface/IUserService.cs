@@ -7,7 +7,8 @@ namespace Interface
     {
         IEnumerable<User> GetAllUsers();
         User GetUserById(string id);
-        void CreateUser(SingUpUserDto userDto);
+        AuthenticatedResponse CreateUser(SingUpUserDto userDto);
         AuthenticatedResponse Authenticate(LoginUserDto userDto);
+        AuthenticatedResponse GetJwtToken(string userId, string username);
     }
 }

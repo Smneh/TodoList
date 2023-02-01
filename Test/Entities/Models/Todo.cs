@@ -12,20 +12,24 @@ namespace Entities.Models
         [ForeignKey(nameof(User))]
         public string UserId { get; set; }
 
-        public Todo(string title, bool isCompleted , string userId)
+        public DateTime DateCreated { get; set; }
+
+        public Todo(string title, string userId)
         {
             Id = Guid.NewGuid().ToString();
             Title = title;
-            IsCompleted = isCompleted;
+            IsCompleted = false;
             UserId = userId;
+            DateCreated = DateTime.Now;
         }
 
-        public Todo(string id, string title, bool isCompleted, string userId)
+        public Todo(string id, string title, bool isCompleted, string userId, DateTime dateCreated)
         {
             Id = id;
             Title = title;
             IsCompleted = isCompleted;
             UserId = userId;
+            DateCreated = dateCreated;
         }
     }
 }

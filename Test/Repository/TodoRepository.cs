@@ -15,7 +15,7 @@ namespace Repository
         public IEnumerable<Todo> GetAllTodos()
         {
             return FindAll()
-                .OrderBy(t => t.UserId)
+                .OrderBy(t => t.DateCreated)
                 .ToList();
         }
         public Todo GetTodoById(string todoId)
@@ -25,7 +25,7 @@ namespace Repository
         }
         public IEnumerable<Todo> GetUserTodos(string userId)
         {
-            return FindAll().Where(todo => todo.UserId == userId);
+            return FindAll().Where(todo => todo.UserId == userId).OrderBy(t => t.DateCreated);
         }
         public void CreateTodo(Todo todo)
         {

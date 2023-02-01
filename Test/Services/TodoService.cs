@@ -21,14 +21,14 @@ namespace Services
             return _repo.Todo.GetTodoById(id); 
         }
 
-        public int CreateTodo(TodoDto todoDto, string userId) {
+        public Todo CreateTodo(string todoTitle, string userId) {
             var user = _repo.User.GetUserById(userId);
             if (user is null)
-                return 1;            
-            var todo = new Todo(todoDto.Title, todoDto.IsCompleted, userId);
+                return null;            
+            var todo = new Todo(todoTitle, userId);
             _repo.Todo.CreateTodo(todo);
             _repo.Save();
-            return 0;
+            return todo;
         }
 
         public IEnumerable<Todo> GetUserTodos(string userId)
@@ -42,7 +42,7 @@ namespace Services
             if (todoEntity is null)
                 return 1 ;
 
-            var todo = new Todo(todoEntity.Id, todoDto.Title, todoDto.IsCompleted, todoEntity.UserId);
+            var todo = new Todo(todoEntity.Id, todoDto.Title, todoDto.IsCompleted, todoEntity.UserId , todoEntity.DateCreated);
             _repo.Todo.UpdateTodo(todo);
             _repo.Save();
             return 0;

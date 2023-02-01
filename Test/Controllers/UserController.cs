@@ -19,8 +19,8 @@ namespace Test.Controllers
         {
             try
             {
-                _userService.CreateUser(userDto);
-                return Ok("User created !");
+                var response = _userService.CreateUser(userDto);
+                return Ok(response);
             }
             catch(DuplicateNameException) {
                 return BadRequest("Username already taken");
@@ -36,7 +36,6 @@ namespace Test.Controllers
             try
             {
                 var response = _userService.Authenticate(userDto);
-
                 if (response == null)
                     return BadRequest("Username or password is incorrect !");
 

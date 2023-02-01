@@ -28,7 +28,7 @@ namespace Services
             return _repo.User.GetUserById(id);
         }
 
-        public void CreateUser(SingUpUserDto userDto) {
+        public AuthenticatedResponse CreateUser(SingUpUserDto userDto) {
             bool exist = _repo.User.UsernameExists(userDto.Username);
             if (exist)
                 throw new DuplicateNameException();
@@ -36,6 +36,8 @@ namespace Services
             var user = new User(userDto.Name,userDto.Username, userDto.Password);
             _repo.User.CreateUser(user);
             _repo.Save();
+
+            return this.GetJwtToken(user.Id, user.Username);
         }
 
         public AuthenticatedResponse Authenticate(LoginUserDto userDto)
@@ -44,12 +46,16 @@ namespace Services
             if (user == null)
                 return null;
 
+            return this.GetJwtToken(user.Id, user.Username);
+        }
+        public AuthenticatedResponse GetJwtToken(string userId, string username)
+        {
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secretKeyMew98sad123%&Fsad"));
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha512Signature);
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id),
-                new Claim(ClaimTypes.Name, user.Username)
+                new Claim(ClaimTypes.NameIdentifier, userId),
+                new Claim(ClaimTypes.Name, username)
             };
             var tokenDescriptor = new SecurityTokenDescriptor
             {
@@ -63,6 +69,7 @@ namespace Services
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
             var tokenString = tokenHandler.WriteToken(token);
+
             return new AuthenticatedResponse { Token = tokenString };
         }
 

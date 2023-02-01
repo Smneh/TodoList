@@ -63,15 +63,15 @@ namespace Test.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateTodo([FromBody] TodoDto todoDto)
+        public IActionResult CreateTodo([FromBody] string todoTitle)
         {
             try
             {
                 var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-                var code = _todoService.CreateTodo(todoDto, userId);
-                if (code == 1)
-                    return BadRequest("UserId is not true");
-                return Ok();
+                var response = _todoService.CreateTodo(todoTitle, userId);
+                if (response is null)
+                    return BadRequest(response);
+                return Ok(response);
             }
 
             catch (Exception ex)
@@ -87,8 +87,7 @@ namespace Test.Controllers
                 var code = _todoService.UpdateTodo(todoDto,todoId);
                 if (code == 1)
                     return BadRequest("UserId not found");
-
-                return Ok("Todo Updated !");
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -106,7 +105,7 @@ namespace Test.Controllers
                     return BadRequest("TodoId not found");
                 if (code == 2)
                     return BadRequest("UserID dose not match the todo's userID");
-                return Ok("Todo Deleted !");
+                return Ok();
             }
             catch (Exception ex)
             {
