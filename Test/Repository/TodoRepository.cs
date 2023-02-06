@@ -25,7 +25,7 @@ namespace Repository
         }
         public IEnumerable<Todo> GetUserTodos(string userId)
         {
-            return FindAll().Where(todo => todo.UserId == userId).OrderBy(t => t.DateCreated);
+            return FindAll().Where(todo => todo.UserId == userId).OrderByDescending(t => t.DateCreated);
         }
         public void CreateTodo(Todo todo)
         {

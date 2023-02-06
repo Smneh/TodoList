@@ -48,7 +48,8 @@ namespace Services
 
             return this.GetJwtToken(user.Id, user.Username);
         }
-        public AuthenticatedResponse GetJwtToken(string userId, string username)
+
+        private AuthenticatedResponse GetJwtToken(string userId, string username)
         {
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secretKeyMew98sad123%&Fsad"));
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha512Signature);

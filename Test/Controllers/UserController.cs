@@ -30,6 +30,7 @@ namespace Test.Controllers
                 return StatusCode(500 , ex.Message);
             }
         }
+
         [HttpPost("login")]
         public IActionResult Authneticate([FromBody] LoginUserDto userDto)
         {

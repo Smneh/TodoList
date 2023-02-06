@@ -9,6 +9,5 @@ namespace Interface
         User GetUserById(string id);
         AuthenticatedResponse CreateUser(SingUpUserDto userDto);
         AuthenticatedResponse Authenticate(LoginUserDto userDto);
-        AuthenticatedResponse GetJwtToken(string userId, string username);
     }
 }
