@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Azure;
+using Entities.Models;
 using Interface;
 using Microsoft.IdentityModel.Tokens;
 using System.Data;
@@ -16,11 +17,6 @@ namespace Services
         public UserService(IRepositoryWrapper repo)
         {
             _repo = repo;
-        }
-
-        public IEnumerable<User> GetAllUsers()
-        {
-            return _repo.User.GetAllUsers();
         }
 
         public User GetUserById(string id)
@@ -47,6 +43,12 @@ namespace Services
                 return null;
 
             return this.GetJwtToken(user.Id, user.Username);
+        }
+
+        public PagedList<User>  GetUsers(UserParameters userParameters)
+        {
+            var users = _repo.User.GetUsers(userParameters);
+            return users;
         }
 
         private AuthenticatedResponse GetJwtToken(string userId, string username)

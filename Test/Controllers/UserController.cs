@@ -1,6 +1,8 @@
 ﻿using Interface;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Data;
+using Test.Entities.Models;
 
 namespace Test.Controllers
 {
@@ -46,6 +48,23 @@ namespace Test.Controllers
             {
                 return StatusCode(500 , ex.Message);
             }
+        }
+
+        [HttpGet]
+        public IActionResult GetOwners([FromQuery] UserParameters userParameters)
+        {
+            var users = _userService.GetUsers(userParameters);
+            var metadata = new
+            {
+                users.TotalCount,
+                users.PageSize,
+                users.CurrentPage,
+                users.TotalPages,
+                users.HasNext,
+                users.HasPrevious
+            };
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(metadata));
+            return Ok(users);
         }
     }
 }

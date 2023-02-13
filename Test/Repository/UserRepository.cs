@@ -2,6 +2,7 @@
 using Entities;
 using Entities.Models;
 using System.Data;
+using Test.Entities.Models;
 
 namespace Repository
 {
@@ -11,11 +12,12 @@ namespace Repository
             : base(repositoryContext)
         {
         }
-        public IEnumerable<User> GetAllUsers()
+
+        public PagedList<User> GetUsers(UserParameters userParameters)
         {
-            return FindAll()
-                .OrderBy(user => user.Username)
-                .ToList();
+            return PagedList<User>.ToPagedList(FindAll().OrderBy(on => on.Name),
+                userParameters.PageNumber,
+                userParameters.PageSize);
         }
         public User GetUserById(string userId)
         {
